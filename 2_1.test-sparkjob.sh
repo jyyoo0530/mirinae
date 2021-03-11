@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 
 
+kubectl apply -f ./test/sparkoperator/sparktest.yaml -n spark-apps
+kubectl delete -f ./test/sparkoperator/sparktest.yaml -n spark-apps
+
 kubectl apply -f ./test/sparkoperator/spark-pi.yaml -n spark-apps
 kubectl apply -f ./test/sparkoperator/spark-pi-configmap.yaml -n spark-apps
 kubectl apply -f ./test/sparkoperator/spark-pi-custom-resource.yaml -n spark-apps

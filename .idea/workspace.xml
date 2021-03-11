@@ -1,9 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ab314d33-9411-471e-ad6a-ed87f12c8ecd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/sparkoperator/sparktest.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.minikube-start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/1.minikube-start.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_1.test-sparkjob.sh" beforeDir="false" afterPath="$PROJECT_DIR$/2_1.test-sparkjob.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,11 +46,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/test/sparkoperator" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -59,9 +81,7 @@
         </option>
         <option name="vmOptions" value="" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -70,7 +90,10 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="ab314d33-9411-471e-ad6a-ed87f12c8ecd" name="Default Changelist" comment="" />
@@ -80,10 +103,35 @@
       <updated>1614650656295</updated>
       <workItem from="1614650657959" duration="56000" />
       <workItem from="1614650803503" duration="6290000" />
+      <workItem from="1614700613431" duration="2132000" />
+      <workItem from="1614923150353" duration="8114000" />
+      <workItem from="1615260938874" duration="2635000" />
+      <workItem from="1615332407881" duration="1197000" />
+      <workItem from="1615358815195" duration="1149000" />
+      <workItem from="1615384321757" duration="606000" />
+      <workItem from="1615420174187" duration="645000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="685" y="461" width="540" height="192" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1615358817408">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="685" y="461" width="540" height="192" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1615358817408" />
   </component>
 </project>
