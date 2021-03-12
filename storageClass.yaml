@@ -1,0 +1,15 @@
+kind: StorageClass
+apiVersion: storage.k8s.io/v1
+metadata:
+  name: local-storage
+provisioner: kubernetes.io/no-provisioner
+volumeBindingMode: WaitForFirstConsumer
+allowVolumeExpansion: true
+#nodeAffinity:
+#  required:
+#    nodeSelectorTerms:
+#      - matchExpressions:
+#          - key: kubernetes.io/hostname
+#            operator: In
+#            values:
+#              - node-clt

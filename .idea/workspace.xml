@@ -20,10 +20,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab314d33-9411-471e-ad6a-ed87f12c8ecd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4.mongodb-start.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helm/mongodboperator/crd/bases/mongodbcommunity.mongodb.com_mongodbcommunity.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helm/mongodboperator/crd/kustomization.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helm/mongodboperator/crd/kustomizeconfig.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helm/mongodboperator/manager/kustomization.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helm/mongodboperator/manager/manager.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helm/mongodboperator/mongodb.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helm/mongodboperator/rbac/kustomization.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helm/mongodboperator/rbac/role.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helm/mongodboperator/rbac/role_binding.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helm/mongodboperator/rbac/service_account.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helm/mongodboperator/samples/arbitrary_statefulset_configuration/mongodb.com_v1_custom_volume_cr.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helm/mongodboperator/samples/mongodb.com_v1_mongodbcommunity_cr.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helm/mongodboperator/samples/mongodb.com_v1_mongodbcommunity_custom_role.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helm/mongodboperator/samples/mongodb.com_v1_mongodbcommunity_openshift_cr.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helm/mongodboperator/samples/mongodb.com_v1_mongodbcommunity_specify_pod_resources.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helm/mongodboperator/samples/mongodb.com_v1_mongodbcommunity_tls_cr.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistentVolume.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistentVolumeClaim.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/storageClass.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.minikube-start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/1.minikube-start.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_1.test-sparkjob.sh" beforeDir="false" afterPath="$PROJECT_DIR$/2_1.test-sparkjob.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helm/kafkaoperator/test/kafka-persistent-single.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/helm/kafkaoperator/test/kafka-persistent-single.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/sparkoperator/spark-pi.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/test/sparkoperator/spark-pi.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/sparkoperator/sparktest.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/test/sparkoperator/sparktest.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +55,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -53,6 +81,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -60,6 +94,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/helm/mongodboperator" />
       <recent name="$PROJECT_DIR$/test/sparkoperator" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -81,7 +116,9 @@
         </option>
         <option name="vmOptions" value="" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -90,7 +127,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -110,11 +147,15 @@
       <workItem from="1615358815195" duration="1149000" />
       <workItem from="1615384321757" duration="606000" />
       <workItem from="1615420174187" duration="645000" />
+      <workItem from="1615446538736" duration="2766000" />
+      <workItem from="1615463303699" duration="6863000" />
+      <workItem from="1615508217212" duration="16414000" />
+      <workItem from="1615537766482" duration="188000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -127,11 +168,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="685" y="461" width="540" height="192" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1615358817408">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="685" y="461" width="540" height="192" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1615358817408" />
   </component>
 </project>
