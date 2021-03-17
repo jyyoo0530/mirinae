@@ -17,6 +17,11 @@ do
   sudo chmod 777 /database/kafka/zookeeper$i
 done
 
+mkdir -p /database/kafka/kafka3
+chmod 777 /database/kafka/kafka3
+mkdir -p /database/kafka/zookeeper3
+chmod 777 /database/kafka/zookeeper3
+
 kubectl apply -f ./helm/kafkaoperator/kafka_pv.yaml
 
 kubectl apply -f ./helm/kafkaoperator/kafka_cluster_persistent.yaml -n kafka

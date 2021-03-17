@@ -19,39 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab314d33-9411-471e-ad6a-ed87f12c8ecd" name="Default Changelist" comment="kafka persistent volume setting,&#10;mongodb sidecar way setting.">
-      <change afterPath="$PROJECT_DIR$/helm/dashboard/dashboard.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/kafkaoperator/grafana-dashboards/grafana_kafka.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/kafkaoperator/grafana-dashboards/strimzi-cruise-control.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/kafkaoperator/grafana-dashboards/strimzi-kafka-bridge.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/kafkaoperator/grafana-dashboards/strimzi-kafka-connect.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/kafkaoperator/grafana-dashboards/strimzi-kafka-exporter.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/kafkaoperator/grafana-dashboards/strimzi-kafka-mirror-maker-2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/kafkaoperator/grafana-dashboards/strimzi-kafka.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/kafkaoperator/grafana-dashboards/strimzi-operators.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/kafkaoperator/grafana-dashboards/strimzi-zookeeper.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/kafkaoperator/kafka_pv_taint.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/kafkaoperator/kafka_topic.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/kafkaoperator/prometheus/(work)_alert-manager.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/kafkaoperator/prometheus/prometheus-rules.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/kafkaoperator/prometheus/prometheus.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/kafkaoperator/prometheus/strimzi-pod-monitor.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/mongodb/operator/mongo_pv_operator.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/mongodb/operator/mongo_sc_operator.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/monitoring/prometheus-svc-kafka.yaml" afterDir="false" />
+    <list default="true" id="ab314d33-9411-471e-ad6a-ed87f12c8ecd" name="Default Changelist" comment="kafka/spark done.&#10;..mongodb/pvc adding...">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_1_appying_kubectl.sh" beforeDir="false" afterPath="$PROJECT_DIR$/1_1_appying_kubectl.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1_3_applying_pod_operator.sh" beforeDir="false" afterPath="$PROJECT_DIR$/1_3_applying_pod_operator.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_4_applying_monitoring.sh" beforeDir="false" afterPath="$PROJECT_DIR$/1_4_applying_monitoring.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_kubeadm_init.sh" beforeDir="false" afterPath="$PROJECT_DIR$/1_kubeadm_init.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3.kafka-start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/3.kafka-start.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4.mongodb_sidecar(choice_a).sh" beforeDir="false" afterPath="$PROJECT_DIR$/4.mongodb_sidecar(choice_a).sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_1.mongodb_operator(choice_b).sh" beforeDir="false" afterPath="$PROJECT_DIR$/4_1.mongodb_operator(choice_b).sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helm/kafkaoperator/kafka_cluster_persistent.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/helm/kafkaoperator/kafka_cluster_persistent.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helm/kafkaoperator/kafka_pv.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/helm/kafkaoperator/kafka_pv_single.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helm/mongodb/local_storageclass.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/helm/mongodb/local_storageclass.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helm/mongodb/operator/mongo_replica_statefulset.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/helm/mongodb/operator/mongo_replica_statefulset.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helm/mongodb/operator/samples/arbitrary_statefulset_configuration/mongodb.com_v1_custom_volume_cr.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/helm/mongodb/operator/samples/arbitrary_statefulset_configuration/mongodb.com_v1_custom_volume_cr.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helm/kafkaoperator/kafka_pv_single.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/helm/kafkaoperator/kafka_pv_cluster.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +34,11 @@
     <option name="done" value="true" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -88,7 +65,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/helm/kafkaoperator" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../strimzi-kafka-operator" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -104,10 +81,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/helm/kafkaoperator" />
-      <recent name="$PROJECT_DIR$/helm/kafkaoperator/grafana-dashboards" />
-      <recent name="$PROJECT_DIR$/helm/kafkaoperator/prometheus" />
       <recent name="$PROJECT_DIR$/helm/kafkaoperator/test" />
       <recent name="$PROJECT_DIR$/helm" />
+      <recent name="$PROJECT_DIR$/helm/mongodb/operator/bitname" />
+      <recent name="$PROJECT_DIR$/helm/mongodb/operator" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/helm/mongodb" />
@@ -118,13 +95,15 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -183,11 +162,6 @@
       <workItem from="1615764999872" duration="4475000" />
       <workItem from="1615784233199" duration="8989000" />
       <workItem from="1615853575518" duration="27541000" />
-      <workItem from="1615904100317" duration="9982000" />
-      <workItem from="1615938180570" duration="12028000" />
-      <workItem from="1615959948312" duration="1015000" />
-      <workItem from="1615961428738" duration="803000" />
-      <workItem from="1615976947760" duration="1012000" />
     </task>
     <task id="LOCAL-00001" summary="kafka/spark done.&#10;..mongodb/pvc adding...">
       <created>1615537990987</created>
@@ -210,21 +184,7 @@
       <option name="project" value="LOCAL" />
       <updated>1615765111384</updated>
     </task>
-    <task id="LOCAL-00004" summary="kafka persistent volume setting,&#10;mongodb sidecar way setting.">
-      <created>1615904179054</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1615904179054</updated>
-    </task>
-    <task id="LOCAL-00005" summary="kafka persistent volume setting,&#10;mongodb sidecar way setting.">
-      <created>1615904183853</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1615904183853</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,7 +195,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="pandora" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -245,7 +217,6 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="kubernetes cluster adding.." />
     <MESSAGE value="kafka/spark done.&#10;..mongodb/pvc adding..." />
-    <MESSAGE value="kafka persistent volume setting,&#10;mongodb sidecar way setting." />
-    <option name="LAST_COMMIT_MESSAGE" value="kafka persistent volume setting,&#10;mongodb sidecar way setting." />
+    <option name="LAST_COMMIT_MESSAGE" value="kafka/spark done.&#10;..mongodb/pvc adding..." />
   </component>
 </project>

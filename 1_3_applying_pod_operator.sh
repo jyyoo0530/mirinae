@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 kubectl wait pod/kube-controller-manager-master --for=condition=Ready --timeout=300s -n kube-system
-kubectl apply -f ~/dev/IdeaProjects/mirinae/helm/flannel/kube-flannel.yml
+kubectl apply -f ./helm/flannel/kube-flannel.yml
 
 # (optional) - dnsutil
 kubectl apply -f ./helm/dnsutil/dnsutil.yaml -n kube-system
