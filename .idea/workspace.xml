@@ -19,114 +19,39 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab314d33-9411-471e-ad6a-ed87f12c8ecd" name="Default Changelist" comment="kafka/spark done.&#10;..mongodb/pvc adding...">
-      <change afterPath="$PROJECT_DIR$/4.mongodb_sidecar(choice_a).sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4_1.mongodb_operator(choice_b).sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/dashboard/heapster-controller.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/dashboard/heapster-rbac.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/dnsutil/dnsutil.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/ingress-nginx/grafana/dashboards/.markdownlint.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/ingress-nginx/grafana/dashboards/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/ingress-nginx/grafana/dashboards/nginx.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/ingress-nginx/grafana/dashboards/request-handling-performance.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/ingress-nginx/grafana/dashboards/request-handling.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/ingress-nginx/grafana/dashboards/screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/ingress-nginx/grafana/deployment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/ingress-nginx/grafana/kustomization.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/ingress-nginx/grafana/service.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/ingress-nginx/prometheus/deployment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/ingress-nginx/prometheus/kustomization.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/ingress-nginx/prometheus/prometheus.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/ingress-nginx/prometheus/role.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/ingress-nginx/prometheus/service.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/ingress-nginx/static/provider/aws/deploy-tls-termination.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/ingress-nginx/static/provider/aws/deploy.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/ingress-nginx/static/provider/aws/kustomization.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/ingress-nginx/static/provider/baremetal/deploy.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/ingress-nginx/static/provider/baremetal/kustomization.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/ingress-nginx/static/provider/cloud/deploy.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/ingress-nginx/static/provider/cloud/kustomization.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/ingress-nginx/static/provider/do/deploy.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/ingress-nginx/static/provider/do/kustomization.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/ingress-nginx/static/provider/kind/deploy.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/ingress-nginx/static/provider/kind/kustomization.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/ingress-nginx/static/provider/scw/deploy.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/ingress-nginx/static/provider/scw/kustomization.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/kafkaoperator/kafka_cluster_persistent.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/kafkaoperator/kafka_pv.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/kafkaoperator/local_storageclass.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/kafkaoperator/test/kafka-ephemeral-single.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/kafkaoperator/test/kafka-ephemeral.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/kafkaoperator/test/kafka-jbod.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/kafkaoperator/test/kafka-persistent.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/mongodb/bitname/.helmignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/mongodb/bitname/Chart.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/mongodb/bitname/Chart.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/mongodb/bitname/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/mongodb/bitname/ci/values-replicaset-with-rbac.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/mongodb/bitname/templates/NOTES.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/mongodb/bitname/templates/_helpers.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/mongodb/bitname/templates/arbiter/configmap.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/mongodb/bitname/templates/arbiter/headless-svc.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/mongodb/bitname/templates/arbiter/pdb.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/mongodb/bitname/templates/arbiter/statefulset.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/mongodb/bitname/templates/configmap.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/mongodb/bitname/templates/hidden/configmap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/mongodb/bitname/templates/hidden/external-access-svc.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/mongodb/bitname/templates/hidden/headless-svc.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/mongodb/bitname/templates/hidden/pdb.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/mongodb/bitname/templates/hidden/statefulset.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/mongodb/bitname/templates/initialization-configmap.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/mongodb/bitname/templates/metrics-svc.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/mongodb/bitname/templates/prometheusrule.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/mongodb/bitname/templates/psp.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/mongodb/bitname/templates/replicaset/external-access-svc.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/mongodb/bitname/templates/replicaset/headless-svc.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/mongodb/bitname/templates/replicaset/pdb.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/mongodb/bitname/templates/replicaset/scripts-configmap.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/mongodb/bitname/templates/replicaset/statefulset.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/mongodb/bitname/templates/replicaset/svc.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/mongodb/bitname/templates/role.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/mongodb/bitname/templates/rolebinding.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/mongodb/bitname/templates/secrets-ca.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/mongodb/bitname/templates/secrets.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/mongodb/bitname/templates/serviceaccount.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/mongodb/bitname/templates/servicemonitor.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/mongodb/bitname/templates/standalone/dep-sts.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/mongodb/bitname/templates/standalone/pvc.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/mongodb/bitname/templates/standalone/svc.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/mongodb/bitname/values.schema.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/mongodb/bitname/values.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/mongodb/local_storageclass.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/mongodb/mongo_pv.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helm/mongodb/sidecar/mongo_statefulset.yaml" afterDir="false" />
+    <list default="true" id="ab314d33-9411-471e-ad6a-ed87f12c8ecd" name="Default Changelist" comment="kafka persistent volume setting,&#10;mongodb sidecar way setting.">
+      <change afterPath="$PROJECT_DIR$/helm/dashboard/dashboard.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helm/kafkaoperator/grafana-dashboards/grafana_kafka.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helm/kafkaoperator/grafana-dashboards/strimzi-cruise-control.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helm/kafkaoperator/grafana-dashboards/strimzi-kafka-bridge.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helm/kafkaoperator/grafana-dashboards/strimzi-kafka-connect.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helm/kafkaoperator/grafana-dashboards/strimzi-kafka-exporter.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helm/kafkaoperator/grafana-dashboards/strimzi-kafka-mirror-maker-2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helm/kafkaoperator/grafana-dashboards/strimzi-kafka.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helm/kafkaoperator/grafana-dashboards/strimzi-operators.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helm/kafkaoperator/grafana-dashboards/strimzi-zookeeper.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helm/kafkaoperator/kafka_pv_taint.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helm/kafkaoperator/kafka_topic.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helm/kafkaoperator/prometheus/(work)_alert-manager.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helm/kafkaoperator/prometheus/prometheus-rules.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helm/kafkaoperator/prometheus/prometheus.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helm/kafkaoperator/prometheus/strimzi-pod-monitor.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helm/mongodb/operator/mongo_pv_operator.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helm/mongodb/operator/mongo_sc_operator.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helm/monitoring/prometheus-svc-kafka.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_1_appying_kubectl.sh" beforeDir="false" afterPath="$PROJECT_DIR$/1_1_appying_kubectl.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1_3_applying_pod_operator.sh" beforeDir="false" afterPath="$PROJECT_DIR$/1_3_applying_pod_operator.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_4_applying_monitoring.sh" beforeDir="false" afterPath="$PROJECT_DIR$/1_4_applying_monitoring.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1_kubeadm_init.sh" beforeDir="false" afterPath="$PROJECT_DIR$/1_kubeadm_init.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3.kafka-start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/3.kafka-start.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4.mongodb-start.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helm/kafkaoperator/test/kafka-persistent-single.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/helm/kafkaoperator/test/kafka-persistent-single.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helm/mongodboperator/mongodb-headlessservice.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helm/mongodboperator/mongodb-statefulset.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helm/mongodboperator/mongodb-storageclass.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helm/mongodboperator/mongodb.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/1_5_applying_nginx.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helm/mongodboperator/mongodboperator/crd/bases/mongodbcommunity.mongodb.com_mongodbcommunity.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helm/mongodboperator/mongodboperator/crd/kustomization.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helm/mongodboperator/mongodboperator/crd/kustomizeconfig.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helm/mongodboperator/mongodboperator/manager/kustomization.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helm/mongodboperator/mongodboperator/manager/manager.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helm/mongodboperator/mongodboperator/mongodb.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helm/mongodboperator/mongodboperator/rbac/kustomization.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helm/mongodboperator/mongodboperator/rbac/role.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helm/mongodboperator/mongodboperator/rbac/role_binding.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/helm/ingress-nginx/prometheus/role-binding.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helm/mongodboperator/mongodboperator/rbac/service_account.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/helm/ingress-nginx/prometheus/service-account.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helm/mongodboperator/mongodboperator/samples/arbitrary_statefulset_configuration/mongodb.com_v1_custom_volume_cr.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/helm/mongodb/operator/mongo_replica_statefulset.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helm/mongodboperator/mongodboperator/samples/mongodb.com_v1_mongodbcommunity_cr.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helm/mongodboperator/mongodboperator/samples/mongodb.com_v1_mongodbcommunity_custom_role.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helm/mongodboperator/mongodboperator/samples/mongodb.com_v1_mongodbcommunity_openshift_cr.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helm/mongodboperator/mongodboperator/samples/mongodb.com_v1_mongodbcommunity_specify_pod_resources.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helm/mongodboperator/mongodboperator/samples/mongodb.com_v1_mongodbcommunity_tls_cr.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storageClass.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/storageClass.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4.mongodb_sidecar(choice_a).sh" beforeDir="false" afterPath="$PROJECT_DIR$/4.mongodb_sidecar(choice_a).sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_1.mongodb_operator(choice_b).sh" beforeDir="false" afterPath="$PROJECT_DIR$/4_1.mongodb_operator(choice_b).sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helm/kafkaoperator/kafka_cluster_persistent.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/helm/kafkaoperator/kafka_cluster_persistent.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helm/kafkaoperator/kafka_pv.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/helm/kafkaoperator/kafka_pv_single.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helm/mongodb/local_storageclass.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/helm/mongodb/local_storageclass.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helm/mongodb/operator/mongo_replica_statefulset.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/helm/mongodb/operator/mongo_replica_statefulset.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helm/mongodb/operator/samples/arbitrary_statefulset_configuration/mongodb.com_v1_custom_volume_cr.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/helm/mongodb/operator/samples/arbitrary_statefulset_configuration/mongodb.com_v1_custom_volume_cr.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,10 +104,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/helm/kafkaoperator" />
+      <recent name="$PROJECT_DIR$/helm/kafkaoperator/grafana-dashboards" />
+      <recent name="$PROJECT_DIR$/helm/kafkaoperator/prometheus" />
       <recent name="$PROJECT_DIR$/helm/kafkaoperator/test" />
       <recent name="$PROJECT_DIR$/helm" />
-      <recent name="$PROJECT_DIR$/helm/mongodb/operator/bitname" />
-      <recent name="$PROJECT_DIR$/helm/mongodb/operator" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/helm/mongodb" />
@@ -193,6 +118,17 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="/home/jyyoo0530/IdeaProjects/mirinae" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -247,6 +183,11 @@
       <workItem from="1615764999872" duration="4475000" />
       <workItem from="1615784233199" duration="8989000" />
       <workItem from="1615853575518" duration="27541000" />
+      <workItem from="1615904100317" duration="9982000" />
+      <workItem from="1615938180570" duration="12028000" />
+      <workItem from="1615959948312" duration="1015000" />
+      <workItem from="1615961428738" duration="803000" />
+      <workItem from="1615976947760" duration="1012000" />
     </task>
     <task id="LOCAL-00001" summary="kafka/spark done.&#10;..mongodb/pvc adding...">
       <created>1615537990987</created>
@@ -269,7 +210,21 @@
       <option name="project" value="LOCAL" />
       <updated>1615765111384</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="kafka persistent volume setting,&#10;mongodb sidecar way setting.">
+      <created>1615904179054</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1615904179054</updated>
+    </task>
+    <task id="LOCAL-00005" summary="kafka persistent volume setting,&#10;mongodb sidecar way setting.">
+      <created>1615904183853</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1615904183853</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,6 +245,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="kubernetes cluster adding.." />
     <MESSAGE value="kafka/spark done.&#10;..mongodb/pvc adding..." />
-    <option name="LAST_COMMIT_MESSAGE" value="kafka/spark done.&#10;..mongodb/pvc adding..." />
+    <MESSAGE value="kafka persistent volume setting,&#10;mongodb sidecar way setting." />
+    <option name="LAST_COMMIT_MESSAGE" value="kafka persistent volume setting,&#10;mongodb sidecar way setting." />
   </component>
 </project>

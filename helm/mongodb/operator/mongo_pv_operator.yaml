@@ -1,0 +1,132 @@
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: mongod1
+spec:
+  capacity:
+    storage: 20Gi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Retain
+  storageClassName: ""
+  local:
+    path: /database/mongodb/mongod1
+  nodeAffinity:
+    required:
+      nodeSelectorTerms:
+        - matchExpressions:
+            - key: kubernetes.io/hostname
+              operator: In
+              values:
+                - master
+#---
+#apiVersion: v1
+#kind: PersistentVolume
+#metadata:
+#  name: mongod2
+#spec:
+#  capacity:
+#    storage: 20Gi
+#  accessModes:
+#    - ReadWriteOnce
+#  persistentVolumeReclaimPolicy: Retain
+#  storageClassName: mongod-sc
+#  local:
+#    path: /database/mongodb/mongod2
+#  nodeAffinity:
+#    required:
+#      nodeSelectorTerms:
+#        - matchExpressions:
+#            - key: kubernetes.io/hostname
+#              operator: In
+#              values:
+#                - master
+#---
+#apiVersion: v1
+#kind: PersistentVolume
+#metadata:
+#  name: mongod3
+#spec:
+#  capacity:
+#    storage: 20Gi
+#  accessModes:
+#    - ReadWriteOnce
+#  persistentVolumeReclaimPolicy: Retain
+#  storageClassName: mongod-sc
+#  local:
+#    path: /database/mongodb/mongod3
+#  nodeAffinity:
+#    required:
+#      nodeSelectorTerms:
+#        - matchExpressions:
+#            - key: kubernetes.io/hostname
+#              operator: In
+#              values:
+#                - master
+#---
+#apiVersion: v1
+#kind: PersistentVolume
+#metadata:
+#  name: agent1
+#spec:
+#  capacity:
+#    storage: 20Gi
+#  accessModes:
+#    - ReadWriteOnce
+#  persistentVolumeReclaimPolicy: Retain
+#  storageClassName: mongo-agent-sc
+#  local:
+#    path: /database/mongodb/agent1
+#  nodeAffinity:
+#    required:
+#      nodeSelectorTerms:
+#        - matchExpressions:
+#            - key: kubernetes.io/hostname
+#              operator: In
+#              values:
+#                - master
+#---
+#apiVersion: v1
+#kind: PersistentVolume
+#metadata:
+#  name: agent2
+#spec:
+#  capacity:
+#    storage: 20Gi
+#  accessModes:
+#    - ReadWriteOnce
+#  persistentVolumeReclaimPolicy: Retain
+#  storageClassName: mongo-agent-sc
+#  local:
+#    path: /database/mongodb/agent2
+#  nodeAffinity:
+#    required:
+#      nodeSelectorTerms:
+#        - matchExpressions:
+#            - key: kubernetes.io/hostname
+#              operator: In
+#              values:
+#                - master
+#---
+#apiVersion: v1
+#kind: PersistentVolume
+#metadata:
+#  name: agent3
+#spec:
+#  capacity:
+#    storage: 20Gi
+#  accessModes:
+#    - ReadWriteOnce
+#  persistentVolumeReclaimPolicy: Retain
+#  storageClassName: mongo-agent-sc
+#  local:
+#    path: /database/mongodb/agent3
+#  nodeAffinity:
+#    required:
+#      nodeSelectorTerms:
+#        - matchExpressions:
+#            - key: kubernetes.io/hostname
+#              operator: In
+#              values:
+#                - master

@@ -8,13 +8,11 @@ kubectl apply -f ./helm/mongodb/local_storageclass.yaml
 sudo rm -rf /database/mongodb
 
 #(Optional) In case of cold running
-sudo mkdir -p /database/mongodb/db1
-sudo chmod 777 /database/mongodb/db1
-sudo mkdir -p /database/mongodb/db2
-sudo chmod 777 /database/mongodb/db2
-sudo mkdir -p /database/mongodb/db3
-sudo chmod 777 /database/mongodb/db3
-
+for i in 1 2 3
+do
+  sudo mkdir -p /database/mongodb/db$i
+  sudo chmod 777 /database/mongodb/db$i
+done
 
 kubectl apply -f ./helm/mongodb/mongo_pv.yaml
 

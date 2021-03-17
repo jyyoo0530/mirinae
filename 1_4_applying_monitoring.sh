@@ -31,7 +31,7 @@ kubectl apply -f ./helm/monitoring/kube-state-deployment.yaml
 # deploy kube-state-svc.yaml
 kubectl apply -f ./helm/monitoring/kube-state-svc.yaml
 
-# apply grafana, grafana.yaml
+# apply grafana, grafana_kafka.yaml
 kubectl apply -f ./helm/monitoring/grafana.yaml
 
 # open 170.168.0.3:30004, and add data source, and add prometheus as source. To get URL,

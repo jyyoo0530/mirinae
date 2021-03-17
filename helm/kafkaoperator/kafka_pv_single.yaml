@@ -1,0 +1,132 @@
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: kafka-kafka-pv1
+spec:
+  capacity:
+    storage: 20Gi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Retain
+  storageClassName: kafka-kafka-sc
+  local:
+    path: /database/kafka/kafka1
+  nodeAffinity:
+    required:
+      nodeSelectorTerms:
+        - matchExpressions:
+            - key: kubernetes.io/hostname
+              operator: In
+              values:
+                - node1
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: kafka-kafka-pv2
+spec:
+  capacity:
+    storage: 20Gi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Retain
+  storageClassName: kafka-kafka-sc
+  local:
+    path: /database/kafka/kafka2
+  nodeAffinity:
+    required:
+      nodeSelectorTerms:
+        - matchExpressions:
+            - key: kubernetes.io/hostname
+              operator: In
+              values:
+                - node2
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: kafka-kafka-pv3
+spec:
+  capacity:
+    storage: 20Gi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Retain
+  storageClassName: kafka-kafka-sc
+  local:
+    path: /database/kafka/kafka3
+  nodeAffinity:
+    required:
+      nodeSelectorTerms:
+        - matchExpressions:
+            - key: kubernetes.io/hostname
+              operator: In
+              values:
+                - node3
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: kafka-zookeeper-pv1
+spec:
+  capacity:
+    storage: 20Gi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Retain
+  storageClassName: kafka-zookeeper-sc
+  local:
+    path: /database/kafka/zookeeper1
+  nodeAffinity:
+    required:
+      nodeSelectorTerms:
+        - matchExpressions:
+            - key: kubernetes.io/hostname
+              operator: In
+              values:
+                - node1
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: kafka-zookeeper-pv2
+spec:
+  capacity:
+    storage: 20Gi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Retain
+  storageClassName: kafka-zookeeper-sc
+  local:
+    path: /database/kafka/zookeeper2
+  nodeAffinity:
+    required:
+      nodeSelectorTerms:
+        - matchExpressions:
+            - key: kubernetes.io/hostname
+              operator: In
+              values:
+                - node2
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: kafka-zookeeper-pv3
+spec:
+  capacity:
+    storage: 20Gi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Retain
+  storageClassName: kafka-zookeeper-sc
+  local:
+    path: /database/kafka/zookeeper3
+  nodeAffinity:
+    required:
+      nodeSelectorTerms:
+        - matchExpressions:
+            - key: kubernetes.io/hostname
+              operator: In
+              values:
+                - node3
