@@ -20,10 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab314d33-9411-471e-ad6a-ed87f12c8ecd" name="Default Changelist" comment="kafka/spark done.&#10;..mongodb/pvc adding...">
+      <change afterPath="$PROJECT_DIR$/xx.kafka_strimzi.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xx.mariadb.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_3_applying_pod_operator.sh" beforeDir="false" afterPath="$PROJECT_DIR$/1_3_applying_pod_operator.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.kafka-start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/3.kafka-start.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helm/kafkaoperator/kafka_pv_single.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/helm/kafkaoperator/kafka_pv_cluster.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_2_kubeadm_init_taint(optional_incaseof_single_node).sh" beforeDir="false" afterPath="$PROJECT_DIR$/1_2_clustering.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helm/kafkaoperator/grafana-dashboards/grafana_kafka.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/helm/kafkaoperator/grafana-dashboards/grafana_kafka.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistentVolumeClaim.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/persistentVolumeClaim.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +36,12 @@
     <option name="done" value="true" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
@@ -65,7 +73,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../strimzi-kafka-operator" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pandora" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -95,19 +103,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="/home/jyyoo0530/IdeaProjects/mirinae" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -162,6 +157,14 @@
       <workItem from="1615764999872" duration="4475000" />
       <workItem from="1615784233199" duration="8989000" />
       <workItem from="1615853575518" duration="27541000" />
+      <workItem from="1615997128256" duration="20812000" />
+      <workItem from="1616078288128" duration="5634000" />
+      <workItem from="1616306633888" duration="2436000" />
+      <workItem from="1616367975960" duration="4055000" />
+      <workItem from="1616418683995" duration="959000" />
+      <workItem from="1616455032480" duration="2285000" />
+      <workItem from="1616501521524" duration="1062000" />
+      <workItem from="1616542215193" duration="309000" />
     </task>
     <task id="LOCAL-00001" summary="kafka/spark done.&#10;..mongodb/pvc adding...">
       <created>1615537990987</created>
@@ -184,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615765111384</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="kafka/spark done.&#10;..mongodb/pvc adding...">
+      <created>1615947900839</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1615947900839</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

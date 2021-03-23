@@ -59,6 +59,7 @@ spec:
     port: 3000
     targetPort: 3000
     protocol: TCP
+    nodePort: 30004
   selector:
     name: grafana
   type: ClusterIP
